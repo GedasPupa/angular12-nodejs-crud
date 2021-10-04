@@ -1,0 +1,28 @@
+{
+  "name": "angular12-nodejs-crud",
+  "version": "1.0.0",
+  "description": "Integrate Angular 12 with Node.js Restful Services",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "12",
+    "nodejs",
+    "express",
+    "sequalize",
+    "rest",
+    "api"
+  ],
+  "author": "Gedas Pupa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
